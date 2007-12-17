@@ -17,7 +17,6 @@ BuildRequires:	jam
 BuildRequires:	SDL_mixer-devel SDL_image-devel MesaGLU-devel
 BuildRequires:	oggvorbis-devel openal-devel physfs-devel zlib-devel 
 BuildRequires:	desktop-file-utils
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 Super Burger World is a jump and run game based on SuperTux, except
