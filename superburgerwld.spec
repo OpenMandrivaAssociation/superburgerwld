@@ -44,11 +44,15 @@ desktop-file-install --vendor="" \
   --add-category="X-MandrivaLinux-MoreApplications-Games-Arcade" \
   --dir %{buildroot}%{_datadir}/applications %{buildroot}%{_datadir}/applications/*
 
+%if %mdkversion < 200900
 %post
 %{update_menus}
+%endif
 
+%if %mdkversion < 200900
 %postun
 %{clean_menus}
+%endif
 
 %clean
 rm -rf %{buildroot}
