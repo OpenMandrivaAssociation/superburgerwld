@@ -1,6 +1,6 @@
 %define name	superburgerwld
 %define version 0.1.2
-%define rel	1
+%define rel	2
 %define release	%mkrel %rel
 %define Summary Jump 'n run sidescroller with a burger
 
