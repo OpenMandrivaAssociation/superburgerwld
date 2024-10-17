@@ -11,7 +11,7 @@ Source0:	http://downloads.sourceforge.net/superburgerwld/%{name}-%{version}_src.
 Patch0:		supertux-0.1.3-fix-build.patch
 License:	GPL
 Group:		Games/Arcade
-URL:		http://superburgerwld.sourceforge.net/
+URL:		https://superburgerwld.sourceforge.net/
 Summary:	%{Summary}
 BuildRequires:	jam
 BuildRequires:	SDL_mixer-devel SDL_image-devel MesaGLU-devel
